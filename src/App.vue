@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <Header/>
+      <Header title="Rick and Morty App"/>
       <Characters/>
 
   </div>
@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './assets/style/common.scss'
+@import './assets/style/common.scss';
 </style>

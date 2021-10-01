@@ -1,4 +1,10 @@
 // import bootstrap
 @import '~bootstrap/scss/bootstrap';
+// Google fonts 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 // importo le variabili 
 @import './variables.scss';
+
+body{
+    font-family: $mainFont;
+}
